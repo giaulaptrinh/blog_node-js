@@ -1,0 +1,31 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giaulaptrinh/blog_node-js.git"
+  },
+  "keywords": [
+    "blog",
+    "giaulee",
+    "nodejs"
+  ],
+  "author": "giaulee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giaulaptrinh/blog_node-js/issues"
+  },
+  "homepage": "https://github.com/giaulaptrinh/blog_node-js#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
